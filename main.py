@@ -1,6 +1,6 @@
 from flask import Flask,jsonify,render_template
 import tweepy
-import mysql.connector
+# import mysql.connector
 # establishing the connection
 # conn = mysql.connector.connect(
 #     user='root', password='', host='127.0.0.1', database='pythondatabase')
