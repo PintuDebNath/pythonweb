@@ -31,11 +31,11 @@ def armstrong(n):
             "VALUES (%s)"
         )
         insertdata = (singledata,)
-        try:
-            cursor.execute(insert_stmt, insertdata)
-            conn.commit()
-        except:
-            conn.rollback()
+        # try:
+        #     cursor.execute(insert_stmt, insertdata)
+        #     conn.commit()
+        # except:
+        #     conn.rollback()
     # result = {
     #     "Number": n,
     #     "Armstrong": True,
